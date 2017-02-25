@@ -1,0 +1,43 @@
+body{
+	margin: 20px;
+}
+.wrap{
+	background-color: #eee;
+	padding: 20px;
+	min-height: 430px;
+}
+.wrap,.leftside,.middle,.rightside,img{
+	border:1px solid #999;
+}
+
+.leftside{
+	position: relative;
+	float: left;
+	width: 160px;
+	padding: 20px;
+	background-color: #fff;
+}
+img{
+	width: 80px;
+	height: 80px;
+}
+.leftside span{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.middle{
+	background-color:#fff;
+	padding: 20px;
+	margin-left: 220px;
+	margin-right: 140px;
+}
+.rightside{
+	float: right;
+	width:120px;
+	background-color: #fff;
+}
+.rightside img{
+	display: block;
+	margin: 20px;
+}
