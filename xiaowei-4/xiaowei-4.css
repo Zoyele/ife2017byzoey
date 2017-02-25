@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.grey{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin:auto;
+	width: 400px;
+	height: 200px;
+	background-color: #eee;
+	overflow: hidden;
+}
+.yellow1,.yellow2{
+	width: 100px;
+	height: 100px;
+	background: #fc0;
+	border-radius: 50%;
+	position: absolute;
+}
+.yellow1{
+	top:-50px;
+	left: -50px;	
+}
+.yellow2{
+	bottom:-50px;
+	right: -50px;
+}
