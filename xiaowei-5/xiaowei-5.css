@@ -1,0 +1,125 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #eee;
+}
+ul li{
+	list-style: none;
+}
+
+*{
+	font-family: "SimHei";
+}
+p{
+	line-height: 1.5em;
+	text-indent: 2em;
+}
+.header{
+	background-color: #000;
+}
+.header ul{
+	float: right;
+}
+.header ul li{
+	float: left;
+	margin-right: 16px;
+}
+.header ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 8px;
+}
+.article-1,.article-2,.article-3,.article-4{
+	margin:20px;
+	padding: 20px;
+	background-color: #fff;
+}
+.article-3 ul li {
+	width: 126px;
+	height: 126px;
+	border:1px solid #ddd;
+}
+.article-3 ul li span {
+	display: inline-block;
+	margin:2px 23px;
+}
+.article-3 ul li img {
+	display: inline-block;
+	margin:10px 13px;
+	width: 100px;
+	height: 80px;
+}
+table{
+	background-color: #eee;
+	width: 100%;
+}
+table th{
+	background-color: #000;
+	color: #fff;
+	text-align: left;
+	padding: 4px;
+}
+table tr{
+	background-color: #fff;
+	padding: 4px;
+}
+.total{
+	background-color: #eee;
+	font-weight: bold;
+}
+.duiqi{
+	width: 50%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.rightside{
+	display: inline-block;
+	font-size: 13px;
+    color: #e8ecef;
+    margin-left: 52%;
+}
+form{
+	line-height: 2em;
+}
+#submitBtn {
+    color: #e8ecef;
+    font-size: 15px;
+    background-color: #3355D0;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+}
+.footer {
+    background-color: #000000;
+    color: #e8ecef;
+    font-size: 15px;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+.main{
+	margin-right: 410px;
+}
+.sider{
+	position: absolute;
+	top:84px;
+	right: 0;
+	width: 370px;
+	padding: 20px;
+	background-color: #fff;
+	margin-right: 2px;
+}
+.article-3 li{
+	float: left;
+	margin:10px;
+}
+.article-3 ul{
+	margin: 0;
+	padding-left: 10px;
+}
+.clear{
+	clear: both;
+}
