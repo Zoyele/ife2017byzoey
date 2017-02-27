@@ -1,0 +1,373 @@
+body,div,ul,li,h1,h2,h3,h4,h5,input,form,a,p,textarea{
+	margin:0;
+	padding: 0;
+	font-weight: normal;
+}
+ol,ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+img{
+	border: none;
+	display: block;
+}
+.wrap{
+	width: 892px;
+	height: 1336px;
+	margin-left: 44px;
+}
+.logo{
+	width: 110px;
+    height: 61px;
+    background-color: #d45d5c;
+    position: relative;
+}
+.logo p{
+	font-size: 12px;
+	font-family: "SimHei";
+	color: #fff;
+	position: absolute;
+	bottom:2px;
+	left: 4px;
+}
+.header{
+	position: relative;
+	margin-bottom: 30px;
+}
+.time{
+	color: #d45d5c;
+	font-size: 12px;
+	font-family: "SimHei";
+	position: absolute;
+	bottom: 2px;
+	right: 0;
+}
+.top-line{
+	width: 892px;
+	border-top: 2px solid #938e8c;
+}
+.banner{
+	float: left;
+}
+.pic-1{
+	background-image: url(imgs/1.png);
+	width: 641px;
+	height: 301px;
+}
+.green{
+	float: left;
+	background:rgba(66,140,89,0.5);
+	width: 191px;
+	height: 301px;
+}
+.red{
+	float: right;
+	background: rgba(204,118,128,0.5);
+	width: 191px;
+	height: 301px;
+}
+.what{
+	width: 200px;
+	float: left;
+	margin-top:30px; 
+}
+.what h5{
+	font:bold 16px "Microsoft Yahei";
+	color:#418c59;
+	text-decoration: underline;
+	line-height: 40px;
+}
+.what p{
+	font: 12px "SimSun";
+	color: #767777;
+	line-height: 16px;
+}
+.when,.how{
+	width: 190px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.when h5{
+	font:bold 16px "Microsoft Yahei";
+	color:#418c59;
+	line-height: 40px;
+	text-decoration: underline;
+}
+.when p{
+	font: 12px "SimSun";
+	color: #767777;
+	line-height: 16px;
+}
+.how h5{
+	font: bold 16px "Microsoft Yahei";
+	color:#418c59;
+	line-height: 40px;
+	text-decoration: underline;
+}
+.how p{
+	font: 12px "SimSun";
+	color: #767777;
+	line-height: 16px;
+}
+.hh{
+	margin-bottom: 30px;
+}
+.percent span{
+	font:12px "Microsoft Yahei";
+	color: #cd4a48;
+	font-style: italic;
+}
+.sider{
+	width: 203px;
+	float: right;
+}
+.clear:after{
+	content: ",";
+	visibility: hidden;
+	height: 0;
+	display: block;
+	clear:both;
+}
+.sider-line{
+	border-top:2px solid #cc8091;
+}
+.ab ,.te{
+	font: 20px "Microsoft Yahei";
+	color: #000;
+	margin-top: 6px;
+}
+.ab:first-letter,.te:first-letter{
+	font-size: 24px;
+}
+.ab:after{
+	content: "";
+	display: block;
+	border-bottom: 2px solid #000;
+	width: 72px;
+}
+.te:after{
+	content: "";
+	display: block;
+	border-bottom: 2px solid #000;
+	width: 142px;
+	margin-bottom: 6px;
+}
+.about{
+	font: 12px "KaiTi";
+	color: #676767;
+	line-height: 12px;
+}
+.seven{
+	font: 116px "Microsoft Yahei";
+	color: #75b86b;
+	margin-left: -10px;
+	-webkit-transform:skew(-15deg);
+}
+.sider-bottom{
+	position: relative;
+	margin-top: -20px;
+}
+.three,.bigc,.smallc{
+	font:55px "Microsoft Yahei";
+	color: #cc8091;
+}
+.bigc{
+	font-size: 21px;
+	position: absolute;
+	top: 24px;
+	left: 80px;
+}
+.smallc{
+	font-size: 12px;
+	position: absolute;
+	bottom: 10px;
+	left: 80px;
+}
+.bottom-left{
+	width: 415px;
+	float: left;
+	margin-top: 50px;
+}
+.topic-1{
+	font:bold 42px "SimHei";
+	color: #11456b;
+	line-height: 58px;
+}
+.topic-1 span{
+	font:bold italic 72px "SimHei";
+	color: #f5e327;
+}
+.topic-2{
+	font:bold 33px "SimHei";
+	color: #11456b;
+}
+.bl-line{
+	border-top: 2px solid #11456b;
+	margin-top: 20px;
+}
+.bl-content span{
+	display: inline-block;
+	margin: -12px 2px -10px 0;
+	float: left;
+	font:70px "Microsoft Yahei";
+	color: #f5e327;
+}
+.bl-content p{
+	font:12px "SimSun";
+	color: #767777;
+	line-height: 16px;
+	margin-top: 20px;	
+}
+.bl-content img{
+	display: inline-block;
+	float: right;
+	padding:20px 10px 10px 10px;
+}
+.bottom-right{
+	float: right;
+	margin-top: 50px;
+	width: 459px;
+}
+.pic-3{
+	background-image: url(imgs/3.jpg);
+	height: 275px;
+	position: relative;
+}
+.black{
+	position: absolute;
+	bottom: 0;
+	height: 61px;
+	width: 459px;
+	background:rgba(100,100,100,0.5);
+}
+.vertical{
+	position: absolute;
+	left: 36px;
+	bottom: 6px;
+	height: 44px;
+	width: 3px;
+	background-color: #72b16a;
+}
+.qianduan-1{
+	position: absolute;
+	bottom:14px;
+	left: 56px;
+	font:26px "Microsoft Yahei";
+	color: #fff;
+}
+.qianduan-2{
+	position: absolute;
+	bottom: 14px;
+	left: 170px;
+	font:italic 14px "Microsoft Yahei";
+	color: #72b16a;
+	line-height: 140%;
+}
+.left-last{
+	width: 459px;
+	height: 318px;
+	background-color: #eee;
+	margin-top: 26px;
+	position: relative;
+}
+.left-last ul{
+	margin-left: 40px;
+	padding-top: 40px;
+}
+.left-last ul li{
+	margin-bottom: 20px;
+}
+.sanjiao{
+	display: inline-block;
+	border-bottom: 10px solid #000;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+}
+.biaoti{
+	display: inline-block;
+	font:16px "SimSun";
+	color: #5a5b5b;
+	margin-left: 6px;
+}
+.zuozhe{
+	display: inline-block;
+	font: italic 12px "SimSun";
+	color: #5a5b5b;
+	float: right;
+	margin-right: 26px;
+}
+.pink{
+	width: 260px;
+	height: 160px;
+	background-color: #d45d5c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.zero{
+	display: inline-block;
+	position: absolute;
+	left: 16px;
+	bottom: 6px;
+	font:110px "Microsoft Yahei";
+	color: #fff;
+}
+.ver-white{
+	width: 2px;
+	height: 86px;
+	background-color: #fff;
+	position: absolute;
+	left: 80px;
+	bottom: 36px;
+}
+.one{
+	font: italic 21px "SimHei";
+	color: #fff;
+	line-height: 24px;
+	position: absolute;
+	left: 90px;
+	top: 40px;
+}
+.hello{
+	font:12px "SimHei";
+	color: #fff;
+	line-height: 16px;
+	position: absolute;
+	left: 90px;
+	bottom: 34px;
+}
+.yingyong{
+	width: 170px;
+	position: absolute;
+	right: 10px;
+	font:italic 14px "SimHei";
+	color: #5a5b5b;
+	line-height: 16px;
+	padding-top: 16px;
+}
+.fuhao1,.fuhao2{
+	display: inline-block;
+	font: 72px "SimHei";
+	color: #d45d5c;
+}
+.fuhao1{
+	float: left;
+	margin:-20px 10px -50px -40px;
+}
+.fuhao2{
+	float: right;
+	margin-right: -30px;
+}
+.footer-line{
+	border-bottom: 1px solid #938e8c;
+	margin-top: 30px;
+}
+.footer-logo{
+	font:12px "SimHei";
+	color: #d45d5c;
+	float: right;
+}
